@@ -15,7 +15,7 @@
 
 			Options:
 
-			-u  Twitter username                                                [required]
+			-u  Twitter username                          [required]
 
 			Missing required argument: u
 
