@@ -1,0 +1,54 @@
+{
+  "name": "twifo-cli",
+  "version": "1.0.0",
+  "description": "Get user info of a Twitter user",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/twifo-cli.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "bin": {
+    "twifo": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "twitter",
+    "user",
+    "username",
+    "handle",
+    "bio",
+    "tweets",
+    "followers",
+    "following",
+    "likes",
+    "joined"
+  ],
+  "dependencies": {
+    "meow": "^3.4.2",
+    "npm-user": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "pify": "^2.2.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/twifo-cli/issues"
+  },
+  "homepage": "https://github.com/codedotjs/twifo-cli#readme",
+  "main": "cli.js"
+}
