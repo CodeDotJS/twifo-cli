@@ -35,7 +35,7 @@
 ```
 ##Related
 
-- [twifo](https://npmjs.com/package/twifo) API For this tool.
+- [twifo](https://npmjs.com/package/twifo) : API for this tool.
 
 ## License
 
