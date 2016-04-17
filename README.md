@@ -5,13 +5,13 @@
 ## Install 
 
 ```
-	sudo npm install --global twifo
+	$ sudo npm install --global twifo-cli
 ```
 
 ## Usage 
 
 ```
-		Usage: cli.js -u [user.name]
+		Usage: twifo -u [user.name]
 
 			Options:
 
@@ -33,3 +33,10 @@
 
 
 ```
+##Related
+
+- [twifo](https://npmjs.com/package/twifo) API For this tool.
+
+## License
+
+MIT &copy; [Rishi Giri](http://rishigiri.com)
