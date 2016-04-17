@@ -35,8 +35,9 @@
     "joined"
   ],
   "dependencies": {
-    "meow": "^3.4.2",
-    "npm-user": "^2.0.0"
+    "colors": "*",
+    "yargs": "*",
+    "twifo": "*"
   },
   "devDependencies": {
     "ava": "*",
