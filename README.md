@@ -1,41 +1,27 @@
-# twifo-cli
+# twifo-cli [![Build Status](https://travis-ci.org/CodeDotJS/twifo-cli.svg?branch=master)](https://travis-ci.org/CodeDotJS/twifo-cli)
 
 > Get user information of a Twitter user.
 
-## Install 
+<p align="center"><img src="https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/242ee3a2b65ad320829426bffc0cbd7598851079/github/ezgif-3-0f269d16b6.gif"></p>
+
+## Install
 
 ```
-	$ sudo npm install --global twifo-cli
+ $ [sudo] npm install --global twifo-cli
 ```
 
-## Usage 
+## Usage
 
 ```
-		Usage: twifo -u [user.name]
+$ Usage: twifo <user-name>
 
-			Options:
-
-			-u  Twitter username                          [required]
-
-			Missing required argument: u
-
-
-		$ twifo -u pakalupapito
-
-			❱ Name      : pakalu papito
-			❱ Handle    : pakalupapito
-			❱ Bio       : started from gas station now we here.
-			❱ Joined    : July 2013
-			❱ Tweets    : 2,246
-			❱ Following : 177
-			❱ Followers : 1.52M
-			❱ Likes     : 2,348
-
-
+  Example:
+    $ twifo 9gag
 ```
 ##Related
 
-- [twifo](https://github.com/CodeDotJS/twifo) : API for this tool.
+- __[`twifo`](https://github.com/CodeDotJS/twifo)__ `: API for this tool.`
+- __[`quorafy`](https://github.com/CodeDotJS/quorafy)__`: Get user information of a Quora user.`
 
 ## License
 
