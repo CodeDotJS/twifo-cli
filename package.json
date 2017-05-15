@@ -1,6 +1,6 @@
 {
   "name": "twifo-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get user info of a Twitter user",
   "license": "MIT",
   "repository": {
