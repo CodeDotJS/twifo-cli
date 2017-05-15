@@ -1,8 +1,13 @@
 import childProcess from 'child_process';
 import test from 'ava';
-import pify from 'pify';
 
-test(async t => {
-	const stdout = await pify(childProcess.execFile)('./cli.js', ['-u pakalupapito'], {cwd: __dirname});
-	t.is(stdout.trim().split('\n')[0], 'Name: pakalu papito');
+test.cb(t => {
+	const cp = childProcess.spawn('./cli.js', ['tjholowaychuk'], {stdio: 'inherit'});
+
+	cp.on('error', t.ifError);
+
+	cp.on('close', code => {
+		t.is(code, 0);
+		t.end();
+	});
 });
