@@ -44,9 +44,9 @@
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
-    "ava": "*",
-    "pify": "^2.2.0",
-    "xo": "*"
+    "ava": "^0.15.2",
+    "xo": "^0.16.0",
+    "pify": "^2.2.0"
   },
   "xo": {
     "esnext": true
