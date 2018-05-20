@@ -1,17 +1,27 @@
-# twifo-cli [![Build Status](https://travis-ci.org/CodeDotJS/twifo-cli.svg?branch=master)](https://travis-ci.org/CodeDotJS/twifo-cli)
+<h1 align="center">
+	T W I F O - C L I
+	<br>
+	<a href="https://travis-ci.org/CodeDotJS/twifo-cli"><img src="https://travis-ci.org/CodeDotJS/twifo-cli.svg?branch=master"></a>
+	<br>
+</h1>
 
-> Get user information of a Twitter user.
+<p align="center">
+Get user information of a Twitter user!
+</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/242ee3a2b65ad320829426bffc0cbd7598851079/github/ezgif-3-0f269d16b6.gif"></p>
 
 ## Install
 
 ```
- $ [sudo] npm install --global twifo-cli
+$ npm install --global twifo-cli
+```
+__`OR`__
+```
+$ sudo npm install --global twifo-cli
 ```
 
 ## Usage
-
 ```
 $ Usage: twifo <user-name>
 
